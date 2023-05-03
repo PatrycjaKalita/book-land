@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { View } from 'react-native';
-import LoginForm from "./src/components/login-form/login-form";
+import LoginForm from "./src/components/login-form/LoginForm";
+import HomePage from "./src/components/home-page";
 
 //assets
 import { imageAssets } from './src/theme/images'
@@ -29,7 +30,8 @@ export default function App() {
     if (!didLoad) return <View />
   return (
     <View>
-      <LoginForm/>
+      {/*<LoginForm/>*/}
+        <HomePage/>
     </View>
   );
 }

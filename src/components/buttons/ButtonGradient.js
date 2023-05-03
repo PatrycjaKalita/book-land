@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import {TouchableOpacity, Text} from 'react-native'
 import {LinearGradient} from 'expo-linear-gradient'
-import {colors} from "../../theme";
 
 const styles = {
     root: {
@@ -15,7 +14,7 @@ const styles = {
     },
 }
 
-const Button = ({
+const ButtonGradient = ({
                     title,
                     width,
                     height,
@@ -42,7 +41,7 @@ const Button = ({
     )
 }
 
-Button.propTypes = {
+ButtonGradient.propTypes = {
     title: PropTypes.string,
     width: PropTypes.string,
     height: PropTypes.string,
@@ -54,7 +53,7 @@ Button.propTypes = {
     style: PropTypes.shape({}),
 }
 
-Button.defaultProps = {
+ButtonGradient.defaultProps = {
     title: null,
     width: 'auto',
     height: 'auto',
@@ -67,4 +66,4 @@ Button.defaultProps = {
     style: {},
 }
 
-export default Button
+export default ButtonGradient

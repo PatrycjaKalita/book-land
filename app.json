@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "book-land",
-    "slug": "book-land",
-    "version": "1.0.0",
+    "name": "book-land-library",
+    "slug": "book-land-library",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "userInterfaceStyle": "dark",
@@ -27,7 +27,7 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/images/favicon.png"
     }
   }
 }

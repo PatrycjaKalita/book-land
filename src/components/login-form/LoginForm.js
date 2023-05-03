@@ -1,9 +1,9 @@
 import {View, Text, ImageBackground, TextInput, Alert, SafeAreaView} from "react-native";
-import styles from './style'
+import styles from './Style'
 import {colors, images} from "../../theme";
-import Button from "./Button"
-export default function LoginForm() {
+import ButtonGradient from "../buttons/ButtonGradient"
 
+export default function LoginForm() {
     return (
         <View style={styles.root}>
             <SafeAreaView/>
@@ -20,7 +20,7 @@ export default function LoginForm() {
 
                 <Text style={[styles.link, {marginLeft: 100, marginTop: 3,}]}>Forgot password?</Text>
 
-                <Button
+                <ButtonGradient
                     color="white"
                     style={styles.button}
                     onPress={() => Alert.alert('Log in work!')}
